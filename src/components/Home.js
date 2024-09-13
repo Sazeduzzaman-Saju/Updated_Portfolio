@@ -30,6 +30,7 @@ const Home = () => {
               {/* data-type values are: "wave", "circle", "square"*/}
               <div
                 className="image absolute inset-0 bg-no-repeat bg-center bg-cover"
+                style={{ rotate: "-24deg", top: "-70px" }}
                 data-img-url="assets/img/slider/1.jpg"
               />
             </div>
@@ -38,13 +39,13 @@ const Home = () => {
                 Sazeduzzaman <span>Saju</span>
               </h3>
               <h5>Frontend Developer</h5>
-              <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
+              <p className="job font-montserrat font-medium max-w-[455px] mb-[25px] text-justify">
                 "I’m a Frontend Developer with expertise in creating responsive,
                 high-performance web interfaces using HTML, CSS, JavaScript, and
-                React. I specialize in styling with Tailwind CSS and Bootstrap,
-                and I bring designs to life with tools like Figma. My focus is
-                on crafting intuitive user experiences through clean, efficient
-                code and modern web technologies."
+                React, Next. I specialize in styling with Tailwind CSS and
+                Bootstrap, and I bring designs to life with tools like Figma. My
+                focus is on crafting intuitive user experiences through clean,
+                efficient code and modern web technologies."
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">

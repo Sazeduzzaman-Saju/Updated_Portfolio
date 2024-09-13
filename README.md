@@ -9,7 +9,7 @@
 
 ## Portfolio
 
-**Frontend Dev** is a [Next.js](https://nextjs.org/) project that show my projects, and work.
+**Frontend Dev** is a [Next.js](https://nextjs.org/) project that show my projects, and works.
 
 ## Installation
 
@@ -18,12 +18,13 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/project-name.git
+   git clone https://github.com/Sazeduzzaman-Saju/Updated_Portfolio.git
 
 2. **Navigate to the project directory:**
 
    ```bash
    cd project-name
+   
 3. **Install dependencies:**
 
    ```bash
@@ -56,5 +57,5 @@ Here are some useful scripts for development and deployment:
 - **Contributions are welcome! Please follow these steps to contribute:
 
 ### Contact:
-**Sazeduzzaman.
-**szamansaju@gmail.com.
+**Sazeduzzaman**
+**szamansaju@gmail.com**

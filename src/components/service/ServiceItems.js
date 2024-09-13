@@ -77,7 +77,7 @@ const ServiceItems = () => {
               <h3 className="title font-bold text-black text-[18px] mb-[15px]">
                 {service.name}
               </h3>
-              <p className="text">{service.text[0].slice(0, 70)}...</p>
+              {/* <p className="text">{service.text[0].slice(0, 70)}...</p> */}
               <div className="tokyo_tm_read_more">
                 <a
                   href="#"

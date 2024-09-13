@@ -1,44 +1,41 @@
-const experiencesData = [
-  {
-    id: 1,
-    date: "2018 - Now",
-    designation: "Exclusive Author",
-    company: "Envato Market",
-  },
-  {
-    id: 2,
-    date: "2016 - 2018",
-    designation: "UX Designer",
-    company: "RGB Studio",
-  },
-  {
-    id: 3,
-    date: "2012 - 2016",
-    designation: "Web Designer",
-    company: "Innovations Park",
-  },
-];
 const educationData = [
   {
     id: 1,
-    date: "2014 - 2016",
-    degree: "Master Degree",
-    institute: "Oxford Univercity",
+    date: "2017 - 2018",
+    degree: "Diploma In CSE",
+    institute: "Saic Institute of Management and Technology",
   },
   {
     id: 2,
-    date: "2010 - 2014",
-    degree: "Bachelor Degree",
-    institute: "Texas Univercity",
-  },
-  {
-    id: 3,
-    date: "2008 - 2010",
-    degree: "Associate Degree",
-    institute: "Simone College",
+    date: "2024 - Enrolled",
+    degree: "BSC In Computer Sicence",
+    institute: "European Univercity Of Bangladesh",
   },
 ];
 
+const experiencesData = [
+  {
+    id: 1,
+    date: "2021 - 2022",
+    designation: "Web Developer",
+    webside:"#",
+    company: "uAppsPro",
+  },
+  {
+    id: 2,
+    date: "2023 - Current",
+    designation: "Frontend Developer",
+    webside:"https://www.ngenitltd.com/",
+    company: "NGen It LTD",
+  },
+  {
+    id: 3,
+    date: "2020 - Current",
+    designation: "Brothers IT",
+    webside:"#",
+    company: "Brothers It",
+  },
+];
 const EducationExperience = () => {
   return (
     <div className="tokyo_tm_resumebox w-full h-auto clear-both float-left bg-white py-[93px] px-0">
@@ -99,6 +96,7 @@ const EducationExperience = () => {
                           {exp.company}
                         </h3>
                         <span className="text-[14px]">{exp.designation}</span>
+                        <span className="text-[14px]">{exp.website}</span>
                       </div>
                     </div>
                   </li>

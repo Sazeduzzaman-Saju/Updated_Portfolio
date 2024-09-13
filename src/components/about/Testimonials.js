@@ -3,24 +3,39 @@ import { sliderProps } from "../../sliderProps";
 const testimonialData = [
   {
     id: 1,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
-    authorImage: "assets/img/testimonials/1.jpg",
-    authorName: "Alexander Walker",
-    authorDesignation: "Graphic Designer",
+    text: "Sazeduzzaman is an exceptional frontend developer. His ability to create clean, responsive designs is outstanding. We were impressed with his professionalism and attention to detail.",
+    authorImage: "assets/img/testimonials/rashed.jpg",
+    authorName: "Rasheduzzaman Raju",
+    authorDesignation: "SEO Engineer",
+    authorCompany: "Arsuk EUR LTD.",
+    authorCompanyUrl: "https://www.arsuk.co.uk/",
   },
   {
     id: 2,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
-    authorImage: "assets/img/testimonials/2.jpg",
-    authorName: "Isabelle Smith",
-    authorDesignation: "Content Manager",
+    text: "Sazeduzzaman's frontend development skills are top-notch. His designs are modern and user-friendly, and he worked with us to ensure everything met our needs.",
+    authorImage: "assets/img/testimonials/akash.jpg",
+    authorName: "Mirza Ryhan Akash",
+    authorDesignation: "Software Tester (QA)",
+    authorCompany: "Brothers IT",
+    authorCompanyUrl: "#",
   },
   {
     id: 3,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
-    authorImage: "assets/img/testimonials/3.jpg",
-    authorName: "Baraka Clinton",
-    authorDesignation: "English Teacher",
+    text: "It was a pleasure working with Sazeduzzaman. His ability to transform design concepts into fully functional web pages is impressive.",
+    authorImage: "assets/img/testimonials/nahid.jpg",
+    authorName: "Nahidul Islam",
+    authorDesignation: "Graphic Designer",
+    authorCompany: "NGen IT LTD",
+    authorCompanyUrl: "http://ngenitltd.com/",
+  },
+  {
+    id: 4,
+    text: "Sazeduzzaman is an outstanding frontend developer with a deep understanding of modern web technologies. His work was delivered on time, and he exceeded our expectations.",
+    authorImage: "assets/img/testimonials/shahed.jpg",
+    authorName: "Khandakar Shahed",
+    authorDesignation: "Full Stack Developer (PHP, Laravel)",
+    authorCompany: "NGen IT LTD",
+    authorCompanyUrl: "http://ngenitltd.com/",
   },
 ];
 const Testimonials = () => {
@@ -55,7 +70,9 @@ const Testimonials = () => {
                       </h3>
                       <span className="text-[14px]">
                         {item.authorDesignation}
-                      </span>
+                      </span>{" "}
+                      <br />
+                      <span className="text-[14px]">{item.authorCompany}</span>
                     </div>
                   </div>
                 </div>

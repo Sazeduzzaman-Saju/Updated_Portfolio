@@ -3,6 +3,7 @@ import { TokyoContext } from "../Context";
 
 const Sidebar = () => {
   const { navChange, nav, menus } = useContext(TokyoContext);
+  console.log(menus)
   return (
     <div className="leftpart w-[450px] h-[100vh] fixed flex items-center z-[12] px-[100px] py-[0px] bg-white">
       <div className="leftpart_inner w-full h-auto">
@@ -12,11 +13,11 @@ const Sidebar = () => {
           <a href="#">
             <img
               className="max-w-[150px]"
-              src="assets/img/logo/dark.png"
+              src="assets/img/logo/logo.png"
               alt="image"
             />
             <h3 className="font-poppins font-black text-[31px] tracking-[5px]">
-              TOKYO
+              SAJU
             </h3>
           </a>
         </div>
@@ -42,14 +43,15 @@ const Sidebar = () => {
         </div>
         <div className="copyright w-full float-left">
           <p className="text-[15px] text-[#999] font-montserrat leading-[25px]">
-            © {new Date().getFullYear()} 
-             <span>{" "}Created by</span>
+            © {new Date().getFullYear()}
+            <span> Created by</span>
             <a
               className="text-[#787878] font-medium transition-all duration-300 hover:text-black"
               href="https://themeforest.net/user/Codeefly"
               target="_blank"
             >
-             {" "} Sazeduzzaman Saju
+              {" "}
+              Sazeduzzaman Saju
             </a>
           </p>
         </div>
